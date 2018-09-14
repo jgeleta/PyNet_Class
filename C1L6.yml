@@ -1,0 +1,8 @@
+- !!python/unicode 'switch1': !!python/unicode '10.0.0.1'
+  !!python/unicode 'switch2': !!python/unicode '10.0.0.2'
+  !!python/unicode 'switch3': !!python/unicode '10.0.0.3'
+  !!python/unicode 'switch4': !!python/unicode '10.0.0.4'
+- !!python/unicode 'hostname1'
+- !!python/unicode 'hostname2'
+- !!python/unicode 'hostname3'
+- !!python/unicode 'hostname4'
