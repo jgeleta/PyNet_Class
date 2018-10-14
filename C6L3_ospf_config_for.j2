@@ -1,0 +1,10 @@
+{%- if ip_addr is defined %}
+interface loopback0
+ ip address {{ ip_addr }} {{ netmask }}
+{%- endif %}
+
+router ospf {{ process_id }}
+{%- for value in network %}
+ network {{ value.network }} {{ value.wildcard }} area {{ value.area }}
+{%- endfor %}
+
